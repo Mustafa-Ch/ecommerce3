@@ -1,0 +1,36 @@
+.slider{
+height: calc(100vh - 70px);
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+.slider .container{
+    width: 300vw;
+    display: flex;
+    height: 100%;
+   transition: all 1s ease;
+  
+}
+.slider .container img{
+    width: 100%;
+    height: 100%;
+}
+.slider .arrows{
+    width: fit-content;
+    position: absolute;
+    gap: 10px;
+    top: 75%;
+    left:45%;
+    margin: auto;
+    display: flex;
+    bottom: 100px;
+}
+.slider .arrows .arrow{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border: solid 2px #999;
+    align-items: center;
+    justify-content: center;
+      cursor: pointer;
+}
